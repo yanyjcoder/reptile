@@ -4,10 +4,10 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: [
-    __dirname + '/src/App.js'
+    __dirname + '/app/src/app.js'
   ],
   output: {
-    path: __dirname + '/static/build',
+    path: __dirname + '/public/build',
     filename: 'bundle.js',
   },
   // devtool: 'eval-source-map',  //生成source file
@@ -33,7 +33,11 @@ module.exports = {
             'react-router.js'
           ]//该写法忽略转换
         }
-      }
+      },
+			{
+				test:/\.less$/,
+				loader:'style!css!less'
+			}
     ]
 
   },
