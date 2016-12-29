@@ -1,4 +1,6 @@
 .jumbotron {
+  overflow:hidden;
+  height: auto;
   position: relative;
   text-align: center;
   align-content: center;
@@ -10,8 +12,11 @@
     background: saddlebrown;
   }
   #jumbotron-image {
+    max-width:120%;
     width: 100%;
-    height: 100%;
+    max-height:100%;
+    height:~'expression(document.body.clientWidth>180?"100%":"auto")';
+    overflow:hidden;
   }
 
   #jumbotron-content {

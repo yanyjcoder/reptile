@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import Jumbotron from './view/containers/Jumbotron';
+import IndexRouter from './routers/router';
 
-ReactDom.render(<Jumbotron/>, document.getElementById('app'));
+let App = IndexRouter();
+
+ReactDom.render(App, document.getElementById('app'));
