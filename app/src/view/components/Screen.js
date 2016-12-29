@@ -23,12 +23,16 @@ class Screen extends React.Component {
 		if (this.state.closed === 'close') {
 			return null;
 		}
+		let imageNum = Math.floor(Math.random()*3 + 1);
+		let imgUrl = 'public/images/screen_'+ imageNum + '.jpg';
 		return(
 			<div className='jumbotron' >
-
-					<h1>{this.props.title}</h1>
-					<p>{this.props.context}</p>
-					{this.props.children}
+					<img id='jumbotron-image' src={imgUrl}/>
+					<div id='jumbotron-content'>
+						<h1>{this.props.title}</h1>
+						<p>{this.props.context}</p>
+						{this.props.children}
+					</div>
 			</div>
 		);
 	}
