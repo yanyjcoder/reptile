@@ -15,8 +15,9 @@ class Sidebar extends React.Component {
 						</div>
 						<div className="nav-menu">
 								<ul className="nav nav-pills nav-stacked" role="tablist">
-									<li role="presentation" ><a href="#"><i className="fa fa-superpowers"/>主页</a></li>
-									<li role="presentation" ><a href="#"><i className="fa fa-gears"/>设置</a></li>
+									<li role="presentation" ><a href="#"><i className="fa fa-superpowers"/>主&#9829;页</a></li>
+									<li role="presentation" ><a href="#/PhotoBar"><i className="fa fa-camera"/>照片墙</a></li>
+									<li role="presentation" ><a href="#"><i className="fa fa-gears"/>设&#9829;置</a></li>
 									<li role="presentation" ><a href="#">Profile</a></li>
 									<li role="presentation" ><a href="#">Profile</a></li>
 									<li role="presentation" ><a href="#">Profile</a></li>

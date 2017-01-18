@@ -3,12 +3,17 @@ import { Router, hashHistory, Route, IndexRoute } from 'react-router';
 
 import Jumbotron from '../view/containers/Jumbotron';
 import Index from '../view/containers/Index';
+import Gallery from '../view/containers/Gallery';
 
 let IndexRouter = () => {
 	return (
 			<Router history={hashHistory} >
-					{/*<Route path ='/' component = {Jumbotron} />*/}
-					<Route path ='/index' component = {Index} />
+
+					<Route path ='/' component = {Index} >
+						<Route path='PhotoBar' component={Gallery}/>
+					</Route>
+
+
 			</Router>
 	);
 };

@@ -34,6 +34,11 @@ module.exports = {
           ]//该写法忽略转换
         }
       },
+			,
+			{
+				test: /masonry|imagesloaded|fizzy\-ui\-utils|desandro\-|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
+				loader: 'imports?define=>false&this=>window'
+			},
 			{
 				test:/\.less$/,
 				loader:'style!css!less'
