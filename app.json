@@ -1,0 +1,12 @@
+{
+  "apps": [{
+    "name": "app",
+    "script": "compiled.js",
+    "node_args": "--harmony",
+    "autorestart": false,
+    "watch": false,
+    "exec_interpreter": "babel-node",
+    "exec_mode": "babel-node",
+    "log_date_format": "YYYY - MM - DD HH: mm Z"
+  }]
+}

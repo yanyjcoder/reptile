@@ -4,13 +4,16 @@ import superagent from 'superagent';
 import path from 'path';
 let events = require("events");
 
+require('babel-register');
+
+import {format} from './app/src/services/common.js';
+
 let emitter = new events.EventEmitter()
 
         //监听setCookeie事件
 
 // import Mail from 'N';
 
-import {format} from './app/src/services/common';
 let app = express();
 // let url = 'https://cnodejs.org';
 let url = 'http://172.16.5.10:8081/';
