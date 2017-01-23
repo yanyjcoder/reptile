@@ -4,7 +4,7 @@
   "description": "reptile ---爬虫（学习用）\r ------------------\r `目标`: 用来爬github上的文章，个人要求定制",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node server.js"
   },
   "repository": {
     "type": "git",
