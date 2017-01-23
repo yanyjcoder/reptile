@@ -23,7 +23,7 @@ class Gallery extends Component {
 				<nav className="navbar navbar-default navbar-static-top gallery-nav" role="navigation">
 					<div className="container">
 					</div>
-					<ul className="nav nav-pills" role="tablist">
+					<ul className="nav nav-pills gallery-nav-pills" role="tablist">
 						<li role="presentation" ><a href="#">Home</a></li>
 						<li role="presentation"><a href="#">Profile</a></li>
 						<li role="presentation"><a href="#">Messages</a></li>

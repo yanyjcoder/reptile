@@ -25,3 +25,10 @@ li :active {
 .gallery-nav {
 	background-color: coral;
 }
+.gallery-nav-pills>li>a {
+	width: 100%;
+	margin-top: 3px;
+	margin-right: 200px;
+	height: 100%;
+	text-align: center;
+}
