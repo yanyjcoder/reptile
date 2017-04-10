@@ -18,6 +18,8 @@ class Sidebar extends React.Component {
 									<li role="presentation" ><a href="#"><i className="fa fa-superpowers"/>主<i className="fa fa-heartbeat" aria-hidden="true" />页</a></li>
 									<li role="presentation" ><a href="#/PhotoBar"><i className="fa fa-camera"/>照片墙</a></li>
 									<li role="presentation" ><a href="#/Apps"><i className="fa fa-th-large" aria-hidden="true" />小应用</a></li>
+									<li role="presentation" ><a href="#/Todos"><i className="fa fa-list" aria-hidden="true" />计<i className="fa fa-heartbeat" aria-hidden="true" />划</a></li>
+									<li role="presentation" ><a href="#"><i className="fa fa-gears"/>博<i className="fa fa-heartbeat" aria-hidden="true" />课</a></li>
 									<li role="presentation" ><a href="#"><i className="fa fa-gears"/>设<i className="fa fa-heartbeat" aria-hidden="true" />置</a></li>
 									<li role="presentation" ><a href="#">Profile</a></li>
 									<li role="presentation" ><a href="#">Profile</a></li>
